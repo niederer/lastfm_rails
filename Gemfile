@@ -13,7 +13,9 @@ gem 'uglifier', '1.3.0'
 gem 'multi_xml', '0.5.5'
 gem 'json', '1.8.1'
 # Use HTTParty for accessing APIs easily
-gem 'httparty', '0.13.1'
+# gem 'httparty', '0.13.1'
+# Ruby interface for Last.fm API v2.0
+gem 'lastfm', '1.25.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 

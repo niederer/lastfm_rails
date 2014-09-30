@@ -1,5 +1,9 @@
+<% unless @full_name.empty? %>
+  <%= @full_name %>
+<% else %>
+  <%= @username %>
+<% end %>
+
 <% unless @playcount.nil? %>
   <%= @playcount %>
-<% else %>
-  <p>Apparently empty lolz</p>
 <% end %>
