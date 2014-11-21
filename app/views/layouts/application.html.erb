@@ -2,13 +2,32 @@
 <html>
 <head>
   <title>LastfmRails</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag   'application', media: 'all' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<div class="container">
+  <div class="row">
+    <div class="grid-3">
+      <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c0.5.160.160/p160x160/10568979_10203396082000109_7387986201210665867_n.jpg?oh=f0ca82e80d7475696d25fe896c8f8e85&oe=54D5CCFA&__gda__=1424155724_89f7a5a2d95ff0aba60ffeddffcd1b42">
+      <ul>
+        <li>24</li>
+        <li>Female</li>
+        <li>United States</li>
+      </ul>
+    </div>
+    <div class="grid-9">
+      <h1>Carissa Niederer's been listening to...</h1>
+      <p>Better Than Ezra, Death From Above 1979, TV on the Radio, The Dandy Warhols, and Foo Fighters.</p>
+    </div>
+    
+
+    <%#= yield %>
+  </div>
+</div>
+
+<%= javascript_include_tag 'application' %>
 
 </body>
 </html>
