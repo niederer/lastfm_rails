@@ -16,7 +16,7 @@ class User
   # Returns the playcount for this particular user
   def self.playcount(username)
     response = get("?method=user.getinfo&user=#{username}&api_key=e8dd87c5785f44879bede207cd63f6ea")
-    raise response.body
+    # raise response.body
     if response.success?
       response = response["playcount"]
       return response
