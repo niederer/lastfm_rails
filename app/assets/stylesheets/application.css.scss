@@ -120,6 +120,13 @@ section {
     }
   }
 }
+
+.friends {
+  img {
+    width: 100%;
+  }
+}
+
 .footer {
   color: lighten($textColor, 15%);
   font-size: $baseFontSize - 2;

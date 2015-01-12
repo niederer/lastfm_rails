@@ -124,17 +124,36 @@
       </div>
     </div>
   </section>
-    </div>
-    
 
-    <%#= yield %>
-  </div>
-</div>
+  <section class="friends">
+    <div class="container">
+      <div class="row">
+        <div class="grid-12">
+          <h2>Friends (11)</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="grid-2">
+          <a href="#">
+            <img src="https://s3.amazonaws.com/recpass-production-profile_pictures/users/profile_pictures/000/000/020/medium/derp.jpg?1360220601">
+            <span>Eric is a Huge Dum Dum</span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="grid-12">
+          <br />
+          <a href="#">See More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer class="footer">
     &copy; <%= Time.now.year %>. Data by <a href="http://www.last.fm/api">Last.fm</a>, design by <a href="http://www.github.com/niederer" rel="nofollow"><i class="fa fa-github-alt"></i> niederer</a>.
   </footer>
 
-<%= javascript_include_tag 'application' %>
+  <%= javascript_include_tag 'application' %>
 
 </body>
 </html>
