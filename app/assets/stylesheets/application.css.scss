@@ -21,3 +21,13 @@ $textColor: #FFF;
 $containerMax: 960px;
 
 @import "base";
+.footer {
+  color: lighten($textColor, 15%);
+  font-size: $baseFontSize - 2;
+  padding: 10px 0;
+  text-align: center;
+  i {
+    margin-left: 2px;
+    margin-right: -2px;
+  }
+}
